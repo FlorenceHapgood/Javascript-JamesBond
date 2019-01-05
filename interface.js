@@ -1,12 +1,12 @@
 $(document).ready(function() {
-  var questions = new Questions()
-  $('#Q1').text(questions.qOne())
+  var answers = new Answers()
+  $('#Q1').text(answers.qOne())
 
 
   $('#Q1_User_Ans').change(function(event) {
     event.preventDefault();
     //var user_answer = $('#Q1_User_Ans').val();
-    $('#Q1_Ans').text(questions.qOneAnswer())
+    $('#Q1_Ans').text(answers.qOneAnswer())
   })
 
   $('#Dr_No').click(function(){

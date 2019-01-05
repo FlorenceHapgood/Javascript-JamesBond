@@ -1,11 +1,11 @@
-function Questions(){
+function Answers(){
 
 }
 
-Questions.prototype.qOne = function(){
+Answers.prototype.qOne = function(){
   return "Q1) Let's start off easy. What was the first James Bond film ever made?"
 };
 
-Questions.prototype.qOneAnswer = function(){
+Answers.prototype.qOneAnswer = function(){
   return "WRONG!"
 }
