@@ -5,8 +5,12 @@ describe("Answers", function(){
   })
 
   describe('qOne', function(){
-    it('evaluates if the answer is right or wrong', function(){
+    it('says if the answer is wrong', function(){
       expect(answers.qOne("Goldfinger")).toEqual('WRONG!')
+    })
+
+    it('says if the answer is right', function(){
+      expect(answers.qOne('Dr_No')).toEqual('Ok...well done')
     })
   })
 

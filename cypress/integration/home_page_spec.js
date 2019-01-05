@@ -15,7 +15,7 @@ describe('Question 1', function(){
     cy.visit('/')
     cy.get('select')
     .select('Dr_No', {force: true})
-    cy.contains('WRONG!')
+    cy.contains('Ok...well done')
   })
 
   it('tells you if you were wrong', function(){
