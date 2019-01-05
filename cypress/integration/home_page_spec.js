@@ -14,9 +14,21 @@ describe('Question 1', function(){
     cy.contains('Goldfinger')
   })
 
-  it('tells you if you were right or wrong', function(){
+  it('tells you if you were right', function(){
     cy.visit('/')
     cy.contains('Dr No').click()
-    cy.contains('Ok...well done') 
+    cy.contains('Ok...well done')
+  })
+
+  it('tells you if you were wrong', function(){
+    cy.visit('/')
+    cy.contains('Goldfinger').click()
+    cy.contains('WRONG!')
+  })
+
+  it('tells you if you were wrong', function(){
+    cy.visit('/')
+    cy.contains('From Russia With Love').click()
+    cy.contains('WRONG!')
   })
 })
