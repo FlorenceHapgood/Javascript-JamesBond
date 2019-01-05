@@ -10,4 +10,10 @@ describe("Questions", function(){
     })
   })
 
+  describe('qOneAnswer', function(){
+    it('evaluates if the answer is right or wrong', function(){
+      expect(questions.qOneAnswer("Goldfinger")).toEqual('WRONG!')
+    })
+  })
+
 })
