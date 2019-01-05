@@ -5,7 +5,6 @@ $(document).ready(function() {
     event.preventDefault();
 
     var user_answer = $('#First_User_Ans').val();
-    console.log(user_answer)
     $('#First_Ans').text(answers.qOne(user_answer))
   })
 
