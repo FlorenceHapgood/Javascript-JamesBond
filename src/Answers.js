@@ -33,3 +33,11 @@ function Answers(){
       return 'Nah'
     }
   }
+
+  Answers.prototype.qFive= function(user_answer){
+    if(user_answer === 'Casino_Royale'){
+      return 'Nice, very nice'
+    } else {
+      return 'Nahuh'
+    }
+  }
