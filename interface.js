@@ -9,9 +9,12 @@ $(document).ready(function() {
 
   $('#Second_User_Ans').change(function(event) {
     event.preventDefault();
-    var user_answer = $('#Second_User_Ans').val();
+
+    var user_answer = $("#Second_User_Ans input[type='radio']:checked").val();
     $('#Second_Ans').text(answers.qTwo(user_answer))
   })
+
+
 
   $('#Third_User_Ans').change(function(event){
     event.preventDefault();
