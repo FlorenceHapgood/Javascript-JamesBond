@@ -1,20 +1,13 @@
 body {
-  background-color: #fafafa;
+
   font-family: proxima-nova, 'Helvetica Neue', Arial, Helvetica, sans-serif;
-
-
+  background-image: url("connery.jpg");
   background-attachment: fixed;
-
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-
-  padding: 0;
-  margin: auto;
-
+  padding-left: 100px;
   font-size: 20px;
-  text-align: center;
+  background-repeat: space;
+}
 
+p {
+ color: red;
 }
