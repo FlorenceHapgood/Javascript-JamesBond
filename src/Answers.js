@@ -27,7 +27,7 @@ function Answers(){
   }
 
   Answers.prototype.qFour= function(user_answer){
-    if(user_answer === 'Pierce Brosnan'){
+    if(user_answer === 'Pierce_Brosnan'){
       return 'Impressive'
     } else {
       return 'Nah'
