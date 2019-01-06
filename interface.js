@@ -22,4 +22,9 @@ $(document).ready(function() {
     $('#Fourth_Ans').text(answers.qFour(user_answer))
   })
 
+  $('#Fifth_User_Ans').change(function(){
+    var user_answer = $("#Fifth_User_Ans input[type='radio']:checked").val()
+    $('#Fifth_Ans').text(answers.qFive(user_answer))
+  })
+
 })
