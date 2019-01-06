@@ -10,7 +10,7 @@ $(document).ready(function() {
   $('#Second_User_Ans').change(function(event) {
     event.preventDefault();
     var user_answer = $('#Second_User_Ans').val();
-    $('#Second_Ans').text(answers.qTwo(user_answer)) //might need to change user_answer to second
+    $('#Second_Ans').text(answers.qTwo(user_answer)) 
   })
 
 })

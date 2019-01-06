@@ -19,7 +19,7 @@ describe("Answers", function(){
   })
 
   describe('qTwo', function(){
-    it('says if the answer is wrong', function(){
+    it('says if the answer is right', function(){
       expect(answers.qTwo('Goldfinger')).toEqual('Hm...not bad, not bad')
     })
 
@@ -27,8 +27,14 @@ describe("Answers", function(){
       expect(answers.qTwo('Diamonds_Are_Forever')).toEqual('You call yourself a James Bond fan?')
     })
 
-    it('says if the answer is rights', function(){
+    it('says if the answer is wrong', function(){
       expect(answers.qTwo('From_Russia_With_Love')).toEqual('You call yourself a James Bond fan?')
+    })
+  })
+
+  describe('qThree', function(){
+    it('says if the answer is right', function(){
+      expect(answers.qThree('John Barry')).toEqual('Not bad at all')
     })
   })
 

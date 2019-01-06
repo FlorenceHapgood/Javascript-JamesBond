@@ -17,3 +17,9 @@ function Answers(){
       return 'You call yourself a James Bond fan?'
     }
   }
+
+  Answers.prototype.qThree = function(user_answer){
+    if(user_answer === 'John Barry'){
+      return 'Not bad at all'
+    }
+  }
