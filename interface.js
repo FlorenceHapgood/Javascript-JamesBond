@@ -15,10 +15,9 @@ $(document).ready(function() {
   })
 
 
-
   $('#Third_User_Ans').change(function(event){
     event.preventDefault();
-    var user_answer = $('#Third_User_Ans').val()
+    var user_answer = $("#Third_User_Ans input[type='radio']:checked").val()
     $('#Third_Ans').text(answers.qThree(user_answer))
   })
 
