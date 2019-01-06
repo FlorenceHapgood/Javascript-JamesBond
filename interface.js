@@ -3,7 +3,7 @@ $(document).ready(function() {
 
   $('#First_User_Ans').change(function(event) {
     event.preventDefault();
-    var user_answer = $('#First_User_Ans').val();
+    var user_answer = $("#First_User_Ans input[type='radio']:checked").val();
     $('#First_Ans').text(answers.qOne(user_answer))
   })
 

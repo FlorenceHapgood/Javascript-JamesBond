@@ -12,7 +12,6 @@ describe('Question 2', function(){
   })
 
 
-
   it('tells you if you were wrong', function(){
     cy.visit('/')
     cy.get('#Second_User_Ans')
