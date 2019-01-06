@@ -21,4 +21,10 @@ $(document).ready(function() {
     $('#Third_Ans').text(answers.qThree(user_answer))
   })
 
+  $('#Fourth_User_Ans').change(function(event){
+    event.preventDefault();
+    var user_answer = $("#Fourth_User_Ans input[type='radio']:checked").val()
+    $('#Fourth_Ans').text(answers.qFour(user_answer))
+  })
+
 })
