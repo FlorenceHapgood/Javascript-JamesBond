@@ -36,6 +36,12 @@ describe("Answers", function(){
     it('says if the answer is right', function(){
       expect(answers.qThree('John Barry')).toEqual('Not bad at all')
     })
+    it('says if the answer is wrong', function(){
+      expect(answers.qThree('John Williams')).toEqual('Please...no')
+    })
+    it('says if the answer is wrong', function(){
+      expect(answers.qThree('David Arnold')).toEqual('Please...no')
+    })
   })
 
 })
