@@ -25,3 +25,11 @@ function Answers(){
       return 'Please...no'
     }
   }
+
+  Answers.prototype.qFour= function(user_answer){
+    if(user_answer === 'Pierce Brosnan'){
+      return 'Impressive'
+    } else {
+      return 'Nah'
+    }
+  }

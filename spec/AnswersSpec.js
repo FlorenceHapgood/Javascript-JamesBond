@@ -44,5 +44,15 @@ describe("Answers", function(){
     })
   })
 
-
+  describe('qFour', function(){
+    it('says if the answer is right', function(){
+      expect(answers.qFour('Pierce Brosnan')).toEqual('Impressive')
+    })
+    it('says if the answer is wrong', function(){
+      expect(answers.qFour('Tom Selleck')).toEqual('Nah')
+    })
+    it('says if the answer is wrong', function(){
+      expect(answers.qFour('Ralph Fiennes')).toEqual('Nah')
+    })
+  })
 })
