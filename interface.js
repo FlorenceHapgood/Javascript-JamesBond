@@ -10,7 +10,13 @@ $(document).ready(function() {
   $('#Second_User_Ans').change(function(event) {
     event.preventDefault();
     var user_answer = $('#Second_User_Ans').val();
-    $('#Second_Ans').text(answers.qTwo(user_answer)) 
+    $('#Second_Ans').text(answers.qTwo(user_answer))
+  })
+
+  $('#Third_User_Ans').change(function(event){
+    event.preventDefault();
+    var user_answer = $('#Third_User_Ans').val()
+    $('#Third_Ans').text(answers.qThree(user_answer))
   })
 
 })

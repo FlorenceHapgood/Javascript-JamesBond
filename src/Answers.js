@@ -19,7 +19,7 @@ function Answers(){
   }
 
   Answers.prototype.qThree = function(user_answer){
-    if(user_answer === 'John Barry'){
+    if(user_answer === 'John_Barry'){
       return 'Not bad at all'
     } else {
       return 'Please...no'

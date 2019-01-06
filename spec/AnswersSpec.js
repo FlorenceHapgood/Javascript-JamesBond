@@ -34,13 +34,13 @@ describe("Answers", function(){
 
   describe('qThree', function(){
     it('says if the answer is right', function(){
-      expect(answers.qThree('John Barry')).toEqual('Not bad at all')
+      expect(answers.qThree('John_Barry')).toEqual('Not bad at all')
     })
     it('says if the answer is wrong', function(){
-      expect(answers.qThree('John Williams')).toEqual('Please...no')
+      expect(answers.qThree('John_Williams')).toEqual('Please...no')
     })
     it('says if the answer is wrong', function(){
-      expect(answers.qThree('David Arnold')).toEqual('Please...no')
+      expect(answers.qThree('David_Arnold')).toEqual('Please...no')
     })
   })
 
