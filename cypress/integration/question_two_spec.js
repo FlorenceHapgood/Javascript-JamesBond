@@ -8,20 +8,20 @@ describe('Question 2', function(){
     cy.visit('/')
     cy.get('#Second_User_Ans')
     .select('Goldfinger', {force: true})
-    // cy.contains('Ok...well done')
+    cy.contains('Hm...not bad, not bad')
   })
 
   it('tells you if you were wrong', function(){
     cy.visit('/')
     cy.get('#Second_User_Ans')
     .select('Diamonds_Are_Forever', {force: true})
-    cy.contains('WRONG!')
+    cy.contains('You call yourself a James Bond fan?')
   })
 
   it('tells you if you were wrong', function(){
     cy.visit('/')
     cy.get('#Second_User_Ans')
     .select('Thunderball', {force: true})
-    cy.contains('WRONG!')
+    cy.contains('You call yourself a James Bond fan?')
   })
 })
