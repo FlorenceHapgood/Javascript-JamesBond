@@ -13,12 +13,12 @@ describe('Question 5', function() {
   it('tells you if the answer is wrong', function() {
     cy.visit('/');
     cy.get('[type="radio"]').check('On_Her_Majesty\'s_Secret_Service');
-    cy.contains('Nahuh');
+    cy.contains('Nahuh. It was Casino_Royale.');
   });
 
   it('tells you if the answer is wrong', function() {
     cy.visit('/');
     cy.get('[type="radio"]').check('Live_And_Let_Die');
-    cy.contains('Nahuh');
+    cy.contains('Nahuh. It was Casino_Royale.');
   });
 });

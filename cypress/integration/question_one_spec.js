@@ -13,12 +13,12 @@ describe('Question 1', function() {
   it('tells you if you were wrong', function() {
     cy.visit('/');
     cy.get('[type="radio"]').check('Goldfinger_One');
-    cy.contains('WRONG!');
+    cy.contains('WRONG! The answer is Dr_No');
   });
 
   it('tells you if you were wrong', function() {
     cy.visit('/');
     cy.get('[type="radio"]').check('From_Russia_With_Love');
-    cy.contains('WRONG!');
+    cy.contains('WRONG! The answer is Dr_No');
   });
 });

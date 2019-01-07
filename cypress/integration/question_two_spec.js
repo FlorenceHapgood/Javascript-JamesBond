@@ -14,12 +14,12 @@ describe('Question 2', function() {
   it('tells you if you were wrong', function() {
     cy.visit('/');
     cy.get('[type="radio"]').check('Diamonds_Are_Forever');
-    cy.contains('You call yourself a James Bond fan?');
+    cy.contains('You call yourself a James Bond fan? The answer is Goldfinger.');
   });
 
   it('tells you if you were wrong', function() {
     cy.visit('/');
     cy.get('[type="radio"]').check('Thunderball');
-    cy.contains('You call yourself a James Bond fan?');
+    cy.contains('You call yourself a James Bond fan? The answer is Goldfinger.');
   });
 });

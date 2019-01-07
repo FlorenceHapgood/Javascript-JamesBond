@@ -13,12 +13,12 @@ describe('Question 4', function() {
   it('tells you if the answer is wrong', function() {
     cy.visit('/');
     cy.get('[type="radio"]').check('Tom_Selleck');
-    cy.contains('Nah');
+    cy.contains('Nah. It was Pierce Brosnan.');
   });
 
   it('tells you if the answer is wrong', function() {
     cy.visit('/');
     cy.get('[type="radio"]').check('Ralph_Fiennes');
-    cy.contains('Nah');
+    cy.contains('Nah. It was Pierce Brosnan.');
   });
 });

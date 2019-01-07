@@ -13,12 +13,12 @@ describe('Question 3', function() {
   it('tells you if you were wrong', function() {
     cy.visit('/');
     cy.get('[type="radio"]').check('John_Williams');
-    cy.contains('Please...no');
+    cy.contains('Please...no. John Barry is the correct answer.');
   });
 
   it('tells you if you were wrong', function() {
     cy.visit('/');
     cy.get('[type="radio"]').check('David_Arnold');
-    cy.contains('Please...no');
+    cy.contains('Please...no. John Barry is the correct answer.');
   });
 });
