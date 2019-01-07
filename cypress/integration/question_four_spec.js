@@ -6,21 +6,18 @@ describe('Question 4', function(){
 
   it('tells you if the answer is right', function(){
     cy.visit('/')
-    cy.get('#Fourth_User_Ans')
     cy.get('[type="radio"]').check('Pierce_Brosnan')
     cy.contains('Impressive')
   })
 
   it('tells you if the answer is wrong', function(){
     cy.visit('/')
-    cy.get('#Fourth_User_Ans')
     cy.get('[type="radio"]').check('Tom_Selleck')
     cy.contains('Nah')
   })
 
   it('tells you if the answer is wrong', function(){
     cy.visit('/')
-    cy.get('#Fourth_User_Ans')
     cy.get('[type="radio"]').check('Ralph_Fiennes')
     cy.contains('Nah')
   })
