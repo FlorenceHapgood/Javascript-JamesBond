@@ -6,8 +6,7 @@ describe('Question 2', function(){
 
   it('tells you if you were right', function(){
     cy.visit('/')
-    cy.get('#Second_User_Ans')
-    cy.get('[type="radio"]').check('Goldfinger')
+    cy.get('#Second_User_Ans').get('[type="radio"]').check('Goldfinger_Two')
     cy.contains('Hm...not bad, not bad')
   })
 

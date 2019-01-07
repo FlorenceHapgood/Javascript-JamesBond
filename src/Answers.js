@@ -11,7 +11,7 @@ function Answers(){
   }
 
   Answers.prototype.qTwo = function(user_answer){
-    if(user_answer === 'Goldfinger') {
+    if(user_answer === 'Goldfinger_Two') {
       return 'Hm...not bad, not bad'
     } else {
       return 'You call yourself a James Bond fan?'

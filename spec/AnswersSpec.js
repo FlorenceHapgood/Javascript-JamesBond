@@ -10,7 +10,7 @@ describe("Answers", function(){
     })
 
     it('says if the answer is wrong', function(){
-      expect(answers.qOne('Goldfinger')).toEqual('WRONG!')
+      expect(answers.qOne('Goldfinger_One')).toEqual('WRONG!')
     })
 
     it('says if the answer is wrong', function(){
@@ -20,7 +20,7 @@ describe("Answers", function(){
 
   describe('qTwo', function(){
     it('says if the answer is right', function(){
-      expect(answers.qTwo('Goldfinger')).toEqual('Hm...not bad, not bad')
+      expect(answers.qTwo('Goldfinger_Two')).toEqual('Hm...not bad, not bad')
     })
 
     it('says if the answer is wrong', function(){

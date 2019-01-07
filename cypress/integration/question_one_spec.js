@@ -14,7 +14,7 @@ describe('Question 1', function(){
   it('tells you if you were wrong', function(){
     cy.visit('/')
     cy.get('#First_User_Ans')
-    cy.get('[type="radio"]').check('Goldfinger')
+    cy.get('[type="radio"]').check('Goldfinger_One')
     cy.contains('WRONG!')
   })
 
