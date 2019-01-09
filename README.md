@@ -1,6 +1,6 @@
 # Javascript-Quiz-App
 
-A project I did after Makers: a simple James Bond Quiz written in Javascript, with Cypress feature testing
+A project I did after Makers: a simple James Bond quiz written in Javascript, with Cypress feature testing
 
 ## Goal
 
@@ -32,7 +32,7 @@ The app is very simple. The user answers the questions and then the answers appe
 - How to use Cypress, so now I can finally feature test Javascript!
 - How to use ESlint to lint my code.
 
-## Future improvements
+## Future Improvements
 
 - I didn't add a scoring element, because this wouldn't add anything to my Cypress knowledge, and as a result it's probably best for me to focus on learning something different. However, I might return to this project in the future.
 - It might be better to have the questions in a database, which would make growth of the app easier.
@@ -40,7 +40,7 @@ The app is very simple. The user answers the questions and then the answers appe
 
 ## To run locally
 
-- Clone the repo and:
+Clone the repo and:
 ```
 $ bundle install
 ```
@@ -53,16 +53,16 @@ $ node node_modules/http-server/bin/http-server
 
 ## Tests
 
-- To run the unit tests, copy the full path of the SpecRunner file into the browser, or:
+To run the unit tests, copy the full path of the SpecRunner file into the browser, or:
 
 ```
 $ open SpecRunner.html
 ```
 ![screen shot 2019-01-08 at 15 06 34](https://user-images.githubusercontent.com/42243785/50924133-9f09da00-1446-11e9-94fa-c46a31880688.png)
 
-- To run all the feature tests:
+To run all the feature tests:
 
-First, keep the server running. Then
+First, keep the server running. Then:
 ```
 $ npx Cypress run
 ```
