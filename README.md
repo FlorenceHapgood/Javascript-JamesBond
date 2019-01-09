@@ -1,4 +1,4 @@
-# Javascript-Quiz-App
+# Javascript-JamesBond
 
 A project I did after Makers: a simple James Bond quiz written in Javascript, with Cypress feature testing
 
