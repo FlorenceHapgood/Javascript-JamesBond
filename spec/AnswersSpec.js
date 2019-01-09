@@ -11,12 +11,12 @@ describe('Answers', function() {
 
     it('says if the answer is wrong', function() {
       expect(answers.qOne('Goldfinger_One')).toEqual('WRONG! The answer' +
-      ' is Dr_No');
+      ' is Dr No');
     });
 
     it('says if the answer is wrong', function() {
       expect(answers.qOne('From_Russia_With_Love')).toEqual('WRONG! The' +
-      ' answer is Dr_No');
+      ' answer is Dr No');
     });
   });
 
@@ -68,11 +68,11 @@ describe('Answers', function() {
     });
     it('says if the answer is wrong', function() {
       expect(answers.qFive('On_Her_Majesty\'s_Secret_Service')).toEqual(
-        'Nahuh. It was Casino_Royale.');
+        'Nahuh. It was Casino Royale.');
     });
     it('says if the answer is wrong', function() {
       expect(answers.qFive('Live_And_Let_Die')).toEqual(
-        'Nahuh. It was Casino_Royale.');
+        'Nahuh. It was Casino Royale.');
     });
   });
 });

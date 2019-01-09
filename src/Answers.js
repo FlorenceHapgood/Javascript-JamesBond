@@ -6,7 +6,7 @@ Answers.prototype.qOne = function(user_answer) {
   if (user_answer === 'Dr_No') {
     return 'Ok...well done';
   } else {
-    return 'WRONG! The answer is Dr_No';
+    return 'WRONG! The answer is Dr No';
   }
 };
 
@@ -38,6 +38,6 @@ Answers.prototype.qFive= function(user_answer) {
   if (user_answer === 'Casino_Royale') {
     return 'Nice, very nice';
   } else {
-    return 'Nahuh. It was Casino_Royale.';
+    return 'Nahuh. It was Casino Royale.';
   }
 };
