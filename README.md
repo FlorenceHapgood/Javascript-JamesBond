@@ -9,6 +9,11 @@ I wanted a project where I could:
 - Practise Javascript in general
 - Finally put the encyclopic knowledge left over from my childhood obsession with James Bond to good use.
 
+## Features 
+
+The app is very simple, the user answers the questions and then the answers appear beneath. Please don't play if you've had a bad day, as wrong answers are greeted with quite a bit of sass.  
+
+
 ## Architecture
 
 - The Answers.js "class" holds all the answers, the questions are written in the index.html file.  
@@ -36,6 +41,12 @@ I wanted a project where I could:
 $ bundle install
 ```
 
+To view the app at localhost:8080:
+
+```
+$ node node_modules/http-server/bin/http-server
+```
+
 ## Tests
 
 - To run the unit tests, copy the full path of the SpecRunner file into the browser, or: 
@@ -43,8 +54,11 @@ $ bundle install
 ```
 $ open SpecRunner.html 
 ```
+![screen shot 2019-01-08 at 15 06 34](https://user-images.githubusercontent.com/42243785/50924133-9f09da00-1446-11e9-94fa-c46a31880688.png)
 
 - To run all the feature tests:
+
+First, keep the server running. Then
 ```
 $ npx Cypress run
 ```
@@ -54,7 +68,9 @@ $ npx Cypress run
 ```
 $ npx Cypress open
 ```
-will allow you to view each feature test individually, with images. It's really great! 
+and then click on each test, or on 'Run all Specs'. This will allow you to see the tests with images. It's really great! 
+
+![screen shot 2019-01-09 at 19 43 57](https://user-images.githubusercontent.com/42243785/50924259-f60faf00-1446-11e9-9108-99c2fb659540.png)
 
 ## Technologies used 
 
