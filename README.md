@@ -79,7 +79,7 @@ and then click on each test, or on 'Run all Specs'. This will allow you to see t
 ## Technologies used
 
 - JavaScript
-- jquery
+- jQuery
 - Jasmine
 - Cypress
 - ESlint
