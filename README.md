@@ -1,13 +1,13 @@
-# Javascript-JamesBond
+# JavaScript-JamesBond
 
-A project I did after Makers: a simple James Bond quiz written in Javascript, with Cypress feature testing
+A project I did after Makers: a simple James Bond quiz written in JavaScript, with Cypress feature testing
 
 ## Goal
 
 I wanted a project where I could:
-- Experiment with using Cypress to feature test Javascript, as previously I did not know how to feature test Javascript.
-- Practise Javascript in general
-- Learn how to use a Javascript linter
+- Experiment with using Cypress to feature test JavaScript, as previously I did not know how to feature test JavaScript.
+- Practise JavaScript in general
+- Learn how to use a JavaScript linter
 - Finally put the encyclopedic knowledge leftover from my childhood obsession with James Bond to good use.
 
 ## Features
@@ -36,7 +36,7 @@ The app is very simple. The user answers the questions and then the answers appe
 
 - I didn't add a scoring element, because this wouldn't add anything to my Cypress knowledge, and as a result it's probably best for me to focus on learning something different. However, I might return to this project in the future.
 - It might be better to have the questions in a database, which would make growth of the app easier.
-- I realised at the end that I had forgotten to write a lot of my names in camel case, which goes against the usual Javascript convention. Too much Ruby for me...
+- I realised at the end that I had forgotten to write a lot of my names in camel case, which goes against the usual JavaScript convention. Too much Ruby for me...
 
 ## To run locally
 
@@ -78,7 +78,7 @@ and then click on each test, or on 'Run all Specs'. This will allow you to see t
 
 ## Technologies used
 
-- Javascript
+- JavaScript
 - jquery
 - Jasmine
 - Cypress
